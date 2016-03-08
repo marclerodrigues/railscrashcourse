@@ -1,0 +1,3 @@
+file = File.read("read_file.txt")
+words = file.split
+puts "Words Count: " + words.length.to_s

@@ -1,0 +1,9 @@
+As you can see, file contains a string. Use file.split to convert
+the string into an array of words. You can now use Ruby’s built-in
+array methods to operate on the contents of the file. For example, use
+file.split.length to count words in the file. file.split.uniq.length tells
+you how many unique words are in the file.
+Using the array of words from Exercise 1, count how many times each
+word appears in the file. One way to do this is by iterating over the
+array and storing the count for each word in a hash where the key is
+the word and the value is the count.
