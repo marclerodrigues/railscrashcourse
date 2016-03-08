@@ -34,6 +34,8 @@ end
 
 text = WordCounter.new "read_file.txt"
 
+puts text.file.class
+
 puts text.count
 puts text.uniq_count
 puts text.frequency
